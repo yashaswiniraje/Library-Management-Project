@@ -1,0 +1,12 @@
+To Achieve Token
+python -m httpie post http://127.0.0.1:8000/gettoken/ username="yashaswini" password="yashaswini"
+
+To verfiy Token
+python -m httpie post http://127.0.0.1:8000/verify/ token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhw
+IjoxNzQyNTU5NjQzLCJpYXQiOjE3NDI1NTkzNDMsImp0aSI6ImQ2ZGI0YTA5NzM4YzRjMDQ4YmQ0MzkyYzNjZThiY2Q5IiwidXNlcl9pZCI6MX0.PqIWC_
+tMPRRImz9qSIbVgVjTSJVpF0j0ZMNrlp429-w"
+
+To Refresh Token
+ python -m httpie post http://127.0.0.1:8000/refresh/ refresh="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyNTY2MDk5LCJpYXQiOjE3NDI1NjU3OTksImp0aSI6IjhlYWE0N2QxNmQ2ZDQ4NTVhZmJhNGI0ODM2N2E4NmMyIiwidXNlcl9pZCI6NX0.rW6BaGR0xW0Tpw6ANc_YpieIM_FFjN42Mrv5iI5YOiE"
+
+
